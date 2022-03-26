@@ -2119,6 +2119,26 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .shuffle-item{
   padding: 25px !important;
 }
+.report-list{
+  list-style: none;
+  height: 68px;
+    padding: 9px;
+    max-width: 300px;
+    background: brown;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    width: 100%;
+    border-radius: 10px;
+;
+}
+.report-link{
+  font-size: 14px;
+  color: #fff !important;
+}
 
 .shuffle-item .project-img-container .project-item-info-content {
   opacity: 0;
