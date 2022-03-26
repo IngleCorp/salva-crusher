@@ -2116,6 +2116,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   padding: 0 30px;
   z-index: 1;
 }
+.shuffle-item{
+  padding: 25px !important;
+}
 
 .shuffle-item .project-img-container .project-item-info-content {
   opacity: 0;
