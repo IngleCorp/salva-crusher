@@ -2128,6 +2128,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   transition: all 400ms;
 }
 
+
 .shuffle-item .project-img-container:hover .gallery-popup .gallery-icon {
   opacity: 1;
   -webkit-transform: perspective(1px) scale3d(1, 1, 1);
@@ -3672,3 +3673,5 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
