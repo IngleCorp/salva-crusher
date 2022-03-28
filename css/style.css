@@ -195,7 +195,7 @@ a:focus {
 }
 
 .dark-bg {
-  background: #252525;
+  background: #d31010;
   color: #fff;
 }
 
@@ -1875,11 +1875,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .service-box-title {
   font-size: 16px;
   margin: 0 0 10px;
+  text-align: center;
+}
+.service-p{
+  text-align: center;
 }
 
-.service-box-title a {
-  color: #333;
-}
 
 .service-box-title a:hover {
   color: #d31010;
@@ -2165,14 +2166,18 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     margin: 12px
 ;
 }
+.report-link:hover{
+  color: #000;
+}
 .report-list:hover{
-  background-color: #0052a5;
+  background-color: #ffe352;
   cursor: pointer;
-  transition: all 2s;
+  color: #000;
+  transition: all 1s;
 }
 .report-link{
   font-size: 14px;
-  color: #fff !important;
+  color: #fff;
 }
 
 .shuffle-item .project-img-container .project-item-info-content {
@@ -2199,7 +2204,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   display: inline-block;
   padding: 2px 8px;
   font-weight: 700;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 10px;
   text-transform: uppercase;
 }
@@ -2398,6 +2403,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 @media (max-width: 575px) {
   .quote-item .quote-text {
     padding: 0 40px 30px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .what-we-do {
+    flex-direction: column;
   }
 }
 
@@ -2690,6 +2700,10 @@ img.testimonial-thumb {
 .footer-widget ul.list-arrow li:hover a,
 .footer-widget ul.list-arrow li:hover {
   color: #d31010;
+}
+.stat{
+  height: 65px ;
+  width: auto;
 }
 
 .working-hours {
